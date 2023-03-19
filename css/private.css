@@ -1,0 +1,172 @@
+.header_top_private{
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: baseline;
+  z-index: 1000;
+  justify-content: space-around;
+  padding: 1rem 2%;
+}
+
+/* .box_img{
+  width: 50%;
+    padding: 1.5%;
+    display: flex;
+    justify-content: center
+}
+
+.container_slider {
+  width: 8rem;
+  height: 8rem;}
+
+.box_img img {
+    width: 100%;
+    height: 100%;
+  } */
+
+.featherd_product_img{
+  margin-bottom: 1rem;
+  width: 16rem;
+    height: 16rem;
+}
+
+.featherd_product_img a img{
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.success{
+	color: green;
+	font-size: 1rem;
+	font-weight: 700;
+	font-style: italic;
+}
+.erorr{
+	color: red;
+	font-size: 1rem;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+    margin-top: 2rem;
+  }
+  
+.footer-container {
+    display: flex;
+    justify-content: space-around;    
+    padding: 1.5rem 5%;
+    background-color: #000;
+    margin-top: 1rem;
+}
+  .footer-container .footer-content h3 {
+    font-size: 1.3rem;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-container .footer-content ul li {
+    line-height: 2;
+  }
+  
+  .footer-container .footer-content ul li a:hover i {
+    padding-right: .3rem;
+  }
+  
+  .footer-container .footer-content ul li a {
+    color: #ccc;
+    font-size: .9rem;
+    text-transform: capitalize;
+  }
+  
+  .footer-container .footer-content ul li a:hover {
+    color: #fff;
+    
+  }
+  
+  .footer-container .info form {
+    width: 90%;
+    display: flex;
+    gap: 0.5rem;
+    background-color: #181a1b;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.75rem;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 30%);
+  }
+  
+  .footer-container .info form input {
+    background-color: #181a1b;
+    border: 0.1rem solid #181a1b;
+    font-size: 1rem;
+    color: #666;
+    text-transform: capitalize;
+  }
+  
+  .footer-container .info form .btn-info {
+    font-size: 1rem;
+    background-color: #000;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .footer-container .info form .btn-info:hover {
+    font-style: italic;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  
+  .links a {
+    background-color: #181a1b;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: .7rem;
+    display: flex;
+    border-radius: 0.5rem;
+  }
+  
+  .links a:hover {
+    background-color: #fff;
+    color: #0f0f10;
+  }
+  
+  .credit {
+    text-align: center;
+    margin-top: 6rem;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  .credit span {
+    color: #fff;
+  }
+
+  @media (max-width: 991px) {
+  
+.featherd_product_img {
+  width: 9rem;
+  height: 9rem;
+}
+}
+
+
+  
